@@ -7,7 +7,7 @@ app.use(express.static(__dirname + '/dist/adobekart'));
 
 // Send all requests to index.html
 app.get('/*', function(req, res) {
-  res.sendFile(path.join(__dirname + '/dist/kart/index.html'));
+  res.sendFile(path.join(__dirname + '/dist/adobekart/index.html'));
 });
 
 // default Heroku PORT
